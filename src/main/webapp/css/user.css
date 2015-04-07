@@ -1,0 +1,19 @@
+div {
+    border: 2px;
+}
+.search {
+    float:left;
+    margin-bottom:20px;
+
+}
+.adding {
+    float: left;
+    width:50%;
+    bottom: auto;
+}
+.table {
+    position: absolute;
+    up: 12px;
+    left: 250px;
+    width: 700px;
+}

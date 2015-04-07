@@ -1,0 +1,43 @@
+Database test, table user.
+
+
+CREATE TABLE 'user' (
+
+'id' INT(8) NOT NULL AUTO_INCREMENT,
+
+'name' VARCHAR(25) NOT NULL,
+
+'age' INT(3) NOT NULL,
+
+'isAdmin'  BIT NOT NULL,
+
+'createDate' TIMESTAMP NOT NULL,
+
+PRIMARY KEY ('id')
+)
+Engine = InnoDB AUTO_INCREMENT = 0 DEFAULT CHARSET = utf8;
+
+
+Data store
+
+insert into user (name, age, isAdmin) values('User', 24, 0);
+
+insert into user (name, age, isAdmin) values('Misha', 18, 1);
+
+insert into user (name, age, isAdmin) values('Користувач', 17, 0);
+
+insert into user (name, age, isAdmin) values('Dasha', 43, 0);
+
+insert into user (name, age, isAdmin) values('User', 45, 0);
+
+insert into user (name, age, isAdmin) values('Адмін', 54, 1);
+
+insert into user (name, age, isAdmin) values('Sahsa', 76, 0);
+
+insert into user (name, age, isAdmin) values('Іванов Іван Іванович', 15, 0);
+
+insert into user (name, age, isAdmin) values('Suslicov', 29, 1);
+
+insert into user (name, age, isAdmin) values('ruba', 43, 0);
+
+insert into user (name, age, isAdmin) values('katya', 99, 0);
